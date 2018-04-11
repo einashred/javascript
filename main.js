@@ -69,5 +69,17 @@ for (let i=0; i<=10; i++) {
     console.log("Wert von i:", i);
 }
 
+function showAge(birthYear) {
+    let age = 2018 - birthYear;
+    console.log( "Du bist ", age, "Jahre alt");
+}
+showAge(1964);
+showAge(1988);
 
+function calcAge(birthYear) {
+    return 2018 - birthYear;
+}
+
+console.log("Du bist", calcAge(1999), "Jahre");
+console.log("und du ", calcAge(1992), ".");
 
